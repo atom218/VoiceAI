@@ -7,7 +7,7 @@ from groq import Groq
 # ==============================
 # Groq Client
 # ==============================
-client = Groq(api_key="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") #this will expire in 7 days starting from 22/01/2026
+client = Groq(api_key="<Enter your API key here>") #this will expire in 7 days starting from 22/01/2026
 
 # ==============================
 # Rule-Based Extraction (Primary)
@@ -488,4 +488,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n\nError: {e}")
         import traceback
+
         traceback.print_exc()

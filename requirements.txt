@@ -1,0 +1,4 @@
+google-genai
+SpeechRecognition
+PyAudio; platform_system == "Windows"
+pyttsx3
